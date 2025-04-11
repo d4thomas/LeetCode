@@ -1,0 +1,17 @@
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        string_number = str(x)
+        list_number = list(string_number)
+        list_reverse = []
+
+        for i in range(len(list_number) -1, -1, -1):
+            list_reverse.append(list_number[i])
+
+        if list_reverse == list_number:
+            return True
+        else:
+            return False
+
+    x = 121
+    result = isPalindrome(0, x)
+    print(result)
