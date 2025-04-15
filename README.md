@@ -5,3 +5,4 @@ LeetCode solutions are presented in C# and Python.
 - Two Sum
 - Palindrome Number
 - Roman to Integer
+- Longest Common Prefix
