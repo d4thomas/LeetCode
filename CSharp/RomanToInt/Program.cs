@@ -40,9 +40,7 @@ class Solution
 
     static void Main(string[] args)
     {
-        Solution solution = new Solution();
         string s = "MCMXCIV";
-        int result = solution.RomanToInt(s);
-        Console.WriteLine(result);
+        Console.WriteLine(new Solution().RomanToInt(s));
     }
 }

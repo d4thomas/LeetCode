@@ -17,6 +17,5 @@ class Solution:
 
         return prefix
 
-    strs = ["flower", "flow", "flight"]
-    result = longestCommonPrefix(0, strs)
-    print(result)
+strs = ["flower", "flow", "flight"]
+print(Solution().longestCommonPrefix(strs))

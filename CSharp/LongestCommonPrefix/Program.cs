@@ -28,8 +28,6 @@
     static void Main(string[] args)
     {
         string[] strs = { "flower", "flow", "flight" };
-        Solution solution = new Solution();
-        string result = solution.LongestCommonPrefix(strs);
-        Console.WriteLine(result);
+        Console.WriteLine(new Solution().LongestCommonPrefix(strs));
     }
 }

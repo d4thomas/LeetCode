@@ -32,9 +32,7 @@
 
     static void Main(string[] args)
     {
-        Solution solution = new Solution();
         string s = "()[]{}";
-        bool result = solution.IsValid(s);
-        Console.WriteLine(result);
+        Console.WriteLine(new Solution().IsValid(s));
     }
 }

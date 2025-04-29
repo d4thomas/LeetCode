@@ -9,6 +9,5 @@ class Solution:
 
         return list_reverse == list_number
 
-    x = 121
-    result = isPalindrome(0, x)
-    print(result)
+x = 121
+print(Solution().isPalindrome(x))

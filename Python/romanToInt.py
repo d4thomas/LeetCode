@@ -17,6 +17,5 @@ class Solution:
 
         return total
 
-    s = "MCMXCIV"
-    result = romanToInt(0, s)
-    print(result)
+s = "MCMXCIV"
+print(Solution().romanToInt(s))

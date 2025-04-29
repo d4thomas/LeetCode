@@ -14,7 +14,7 @@ class Solution
 
     static void Main(string[] args)
     {
-        Solution solution = new Solution();
-        Console.WriteLine(solution.IsPalindrome(212));
+        int x = 212;
+        Console.WriteLine(new Solution().IsPalindrome(x));
     }
 }
